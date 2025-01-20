@@ -1,0 +1,282 @@
+
+/* container-1 */
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 83%;
+    height: 80px;
+    
+}
+
+.school{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+#Home{ color: orange; }
+#About{ color: #01ACFD;}
+#Facilites{ color: #05D4DF;}
+#Admission{ color: #5D58EF;}
+
+.btn{
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+
+/*  2nd container */
+
+
+.container2{
+    display: flex;
+   margin:0 auto ;
+   /* margin-right: 40px; */
+   width: 83%;
+   height: 550px;
+   /* align-items: center; */
+    
+}
+.left-side{
+    margin-top:125px;
+    margin-right: 25px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.con-head{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: #01ACFD;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-top: 15px;
+}
+.right-side{
+    margin-left: 70px;
+    
+}
+
+.boy{
+    width: 450px;
+    height: 550px;
+}
+
+/* main part 1 */
+.main-1{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.main-con-head{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.boxs{
+    display: flex;
+    margin: 70px 120px ; 
+    gap: 28px;
+}
+.box1{
+    padding: 25px;
+    padding-top: 40px;
+border: solid #def5ff93;
+border-radius: 15px;
+background-image: linear-gradient(
+    #DEF5FF 0%,
+    #FFFFFF 40%
+);
+width: 280px;
+height: 350px;
+}
+.read1{
+    color: #64C8FF;
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+}
+.box2{
+    padding: 25px;
+    padding-top: 40px;
+    border: solid #fff4dc79;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        #FFF4DC 0%,
+        #FFFFFF 40%
+    );
+    width: 280px;
+    height: 350px;
+    
+}
+.read2{
+    color: #F0AA00;
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+}
+.box3{
+    padding: 25px;
+    padding-top: 40px;
+    border: solid #eee1ff84;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        #EEE1FF 0%,
+        #FFFFFF 40%
+    );
+    width: 280px;
+    height: 350px;
+}
+.read3{
+    color: #8700FF;
+    background-color: white;
+    border: none;
+    margin-top: 40px;}
+
+    /* arrow */
+
+.arrow-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.arrow1{
+    text-align: center;
+background-color: orange;
+color: white;
+font-size: x-large;
+font-weight: 900;
+padding: 5px;
+padding-top: 10px;
+width: 40px;
+height: 31px;
+border-radius: 50%;
+}
+.arrow2{
+    background-color: orange;
+    color: white; 
+    font-size: x-large;
+    font-weight: 900;
+width: 40px;
+height: 31px;
+padding: 5px;
+padding-top: 10px;
+
+border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quary */
+@media screen and (max-width:576px){
+   .container1 {
+   flex-direction: row;
+   justify-content:space-around ;
+   align-items: center;
+   margin:0px;
+   /* margin-top:0px ; */
+   margin-left: -8px;
+   width:430px;
+   height: 100px; 
+   gap: 200px;
+   border-bottom: solid orange;
+   
+   
+   } 
+
+   .sch{
+    display: none;
+}
+ .menu {
+    display: none;
+}
+.btn{
+    display: none;
+    
+
+}
+
+.container2 {
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+
+}
+.right-side{
+    margin-bottom: -150px;
+    margin-left: -25px;
+   
+}
+.boy{
+    width: 400px;
+}
+
+.main-1{
+    flex-direction: column;
+}
+.boxs{
+    flex-direction: column;
+    margin: 40px;
+}
+
+.arrow-box{
+    display: none;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* bor big screen */
+@media screen and (min-width:576px) and (max-width:1470px)  {
+    .menu-icon {
+        display:none
+    }
+
+
+
+
+    
+}
